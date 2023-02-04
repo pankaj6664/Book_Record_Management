@@ -1,0 +1,29 @@
+{
+  "name": "book-record-management",
+  "version": "1.0.0",
+  "description": "Book Record Management Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANANDPATEL2001/Book-Record-Management.git"
+  },
+  "author": "ANAND KUMAR PATEL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANANDPATEL2001/Book-Record-Management/issues"
+  },
+  "homepage": "https://github.com/ANANDPATEL2001/Book-Record-Management#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
